@@ -1,0 +1,12 @@
+#Heroku 
+Simple Web App with Flask and Heroku
+https://youtu.be/6plVs_ytIH8
+
+Wireframe
+https://github.com/MariyaSha/groceriesList/tree/main
+
+
+a simple Flask application using SQLite database
+Author: Mariya Sha
+YouTube tutorial: https://youtu.be/v3CSQkPJtAc
+

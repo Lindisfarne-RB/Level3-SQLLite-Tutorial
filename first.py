@@ -18,9 +18,10 @@ cursor.execute("INSERT INTO stores VALUES (21, 'Howick')")
 cursor.execute("INSERT INTO stores VALUES (22, 'Pakuranga') ")
 cursor.execute("INSERT INTO stores VALUES (23, 'Flatbush') ")
                
-cursor.execute("INSERT INTO purchases VALUES (1, 66, 45.67)")
-cursor.execute("INSERT INTO purchases VALUES (2, 86, 15.11)")
+cursor.execute("INSERT INTO purchases VALUES (11, 66, 45.67)")
+cursor.execute("INSERT INTO purchases VALUES (21, 86, 15.11)")
                
+print ("---------------------------- \n Purchase Table")
 cursor.execute("SELECT * FROM purchases ")
 
 results = cursor.fetchall()
@@ -29,7 +30,7 @@ print(results)
 
 #KITE AI coding assistance
 #UPDATE
-cursor.execute("UPDATE purchases SET total_cost = 3.67 WHERE purchase_id = 1")
+cursor.execute("UPDATE purchases SET total_cost = 3.67 WHERE purchase_id = 11")
 
 cursor.execute("SELECT * FROM purchases ")
 
@@ -38,4 +39,5 @@ print(results)
 
 #Delete
 
-cursor.execute("DELETE FROM purchases WHERE purchase id =1")
+cursor.execute("DELETE FROM purchases WHERE purchase id = 21")
+cursor.execute("SELECT * FROM purchases ")
